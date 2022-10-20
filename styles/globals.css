@@ -4,9 +4,14 @@
 
 @layer components {
     .heroButton {
-        @apply z-30 px-6 py-2 border border-[#7849ef] 
-        rounded-full uppercase text-lg tracking-widest text-[#f9f9f9] 
+        @apply z-30 px-6 py-2 border border-[#7849ef]
+        rounded-full uppercase text-lg tracking-widest text-[#000000] font-bold
         transition-all hover:shadow-[0_0px_30px_12px_rgba(120,73,239,0.5)]
     }
+    .custom {
+/*         background-image: linear-gradient(270deg, #7849ef, #000000);
+        background-clip: text;
+        color: transparent; */
+      }
 
 }

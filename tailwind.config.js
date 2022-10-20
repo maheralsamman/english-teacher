@@ -12,7 +12,10 @@ module.exports = {
             "0 4px 3px rgb(0 0 0 / 0.5)",
             '0 10px 8px rgba(0 0 0 0.5)',
         ]
-      }
+      },
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif'] 
+      },
     },
   },
   plugins: [],
