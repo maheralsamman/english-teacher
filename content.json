@@ -51,7 +51,11 @@
       "Phone number",
       "Send"
     ],
-    "about": "Teacher Yasser Samman is a professional international English teacher, (CELTA) qualified by Cambridge and certified examiner for several Cambridge exams. 15 years of experience in teaching English to at least 5000 students of all levels, plus delivering IELTS preparation courses. Long teaching experience in multiple international institutions such as British Council, International House, LTUC, etc, in addition to working with the European Union in projects dedicated to teaching English. Currently, he is holding intensive English language & IELTS courses online, practically and professionally, to all levels through the platform “English Languarium” that he launched with the beginning of 2020. Teacher Yasser can speak three languages, and he is also a musician, music player, composer, trainer of the musical keys and vocal presentation.",
+    "about": ["Teacher Yasser Samman is a professional international English teacher, (CELTA) qualified by Cambridge and certified examiner for several Cambridge exams.", 
+    "16 years of experience in teaching English to at least 5000 students of all levels, plus delivering IELTS preparation courses.",
+     "Long teaching experience in multiple international institutions such as British Council, International House, LTUC, etc, in addition to working with the European Union in projects dedicated to teaching English.", 
+     "Currently, he is holding intensive English language & IELTS courses online, practically and professionally, to all levels through the platform “English Languarium” that he launched in the beginning of 2020.",
+    "Teacher Yasser speaks three languages, and he is also a musician, music player, composer, and trainer of the musical keys and vocal presentation."],
     "footer": [
       "For any other inquiries don't hesitate to contact us directly through our Email or WhatsApp.",
       "englishlanguarium@gmail.com",
@@ -108,7 +112,11 @@
       "رقم الهاتف",
       "إرسال"
     ],
-    "about": "الأستاذ ياسر السمان مدرس لغة انجليزية دولي مؤهل من كامبردج بشهادة (CELTA)، وممتحن مجاز من كامبردج لعدة امتحانات دولية. خبرة 15 عاماً في تدريس اللغة الانجليزية لما يزيد عن 5000 طالب لكل المستويات، بالإضافة إلى الدورات التحضيرية لامتحان الآيلتس.  خبرة طويلة في العمل في العديد من الكليات والمعاهد والمراكز العالمية مثل المجلس الثقافي البريطاني والبيت الدولي وكلية لومينوس وعدد كبير من المؤسسات الأخرى بالإضافة إلى العمل في مشاريع دولية مع الاتحاد الأوروبي في تدريس اللغة الانجليزية.  ويقدم حالياً دورات تدريبية عملية مكثفة في اللغة الانجليزية عن بعد بطريقة احترافية لكل المستويات بمنهج بريطاني بالإضافة إلى دورات محادثة و دورات تحضيرية لامتحان الآيلتس من خلال منصة English Languarium التي أطلقها مع بداية 2020. الأستاذ ياسر يجيد التحدث بثلاث لغات ويدرّس اللغة الألمانية كما وأنه موسيقي وعازف وملحّن ومدرّب في المقامات الموسيقية والصولفيج الغنائي والإلقاء الصوتي.",
+    "about": ["الأستاذ ياسر السمان مدرس لغة انجليزية دولي مؤهل من كامبردج بشهادة (CELTA) وممتحن مجاز من كامبردج لعدة امتحانات دولية.",
+    "خبرة 16 عاماً في تدريس اللغة الإنجليزية لما يزيد عن 5000 طالب لكل المستويات، بالإضافة إلى الدورات التحضيرية لامتحان الآيلتس.",
+    "خبرة طويلة في العمل في العديد من الكليات والمعاهد والمراكز العالمية مثل المجلس الثقافي البريطاني والبيت الدولي وكلية لومينوس وعدد كبير من المؤسسات الأخرى بالإضافة إلى العمل في مشاريع دولية مع الاتحاد الأوروبي في تدريس اللغة الانجليزية. ",
+    "قدم حالياً دورات تدريبية عملية مكثفة في اللغة الانجليزية عن بعد بطريقة احترافية لكل المستويات بمنهج بريطاني بالإضافة إلى دورات محادثة و دورات تحضيرية لامتحان الآيلتس من خلال منصة English Languarium التي أطلقها مع بداية 2020.",
+    "الأستاذ ياسر يجيد التحدث بثلاث لغات ويدرّس اللغة الألمانية كما وأنه موسيقي وعازف وملحّن ومدرّب في المقامات الموسيقية والصولفيج الغنائي والإلقاء الصوتي."],
     "footer": [
       "لاستفساراتكم لا تترددوا بالتواصل معنا عبر الإيميل أو الواتس آب",
       "englishlanguarium@gmail.com",
