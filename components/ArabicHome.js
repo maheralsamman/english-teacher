@@ -1,13 +1,17 @@
 import React from "react";
+import Courses from "./Courses";
+import InProgress from "./InProgress";
+import Contact from "./Contact";
+import About from "./About";
 
 const ArabicHome = ({ content }) => {
   return (
-    <main className="text-right">
-      <h1>{content.mainTitle}</h1>
-      <p>{content.points[0]}</p>
-      <p>{content.points[1]}</p>
-      <p>{content.points[2]}</p>
-      <p>{content.points[3]}</p>
+    <main className="flex flex-col space-y-8 justify-start overflow-hidden text-right">
+      <Courses />
+      <InProgress  id="inprogress"  /> 
+      <Contact  id="contact"  /> 
+      <About  id="about"  /> 
+
     </main>
   );
 };

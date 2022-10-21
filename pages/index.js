@@ -15,14 +15,15 @@ export default function Home() {
   return (
       /* bg-[rgb(13,13,13)] */
       /*darker green #426d18 */
-    <div className=" text-white h-screen relative overflow-scroll z-0 bg-gradient-to-r from-[#0e0e0e] via-[#68b132] to-[rgba(14,14,14,1)]">
+      /*the original green #68b132 */
+    <div className=" text-white h-screen relative overflow-scroll z-0 bg-gradient-to-r from-[#0e0e0e] via-[#487c21] to-[rgba(14,14,14,1)]">
       <Head>
         <title>Yasser Alsamman</title>
       </Head>
       <Language />
       <Background />
       <Hero />
-      <section id="about" className="snap-center">
+      <section  className="snap-center">
       </section>
       {/* <Header className="" /> */}
 

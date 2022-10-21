@@ -1,6 +1,6 @@
 {
   "en": {
-    "locale":"en-US",
+    "locale": "en-US",
     "mainTitle": "SPEAK ENGLISH & MAKE THE CHANGE",
     "points": [
       "ENGLISH LANGUARIUM  is your platform to dive into the beauty of the British English language.",
@@ -8,6 +8,15 @@
       "Lovely & comfortable atmosphere with no stress because we all work as one family, and we believe that your achievement is ours.",
       "Learn English with modern teaching methods that focus on the student, not the teacher."
     ],
+    "inprogress": {
+      "Elementary": "Starts on Sat 8/10/2022 (6:30pm – 8:30pm) KSA time",
+      "Pre-intermediate": "Starts on Sat 8/10/2022 (4:00pm – 6:00pm) KSA time",
+      "Intermediate": "Starts on Sat 8/10/2022 (9:00pm – 11:00pm) KSA time",
+      "Upper-intermediate": "in January 2023",
+      "English Conversation": "Starts on Sat 1/11/2022 (11:00am – 1:00pm) KSA time",
+      "English proficiency exam preparation": "course for the universities in Turkey, Cyprus, Georgia, etc. Every September",
+      "IELTS Preparation": "Starts on Sat 8/10/2022 (11:00am – 2:00pm) KSA time"
+    },
     "courseInfo": [
       "Four days a week. (Sat, Sun, Mon, Wed)",
       "Two hours per session.",
@@ -51,11 +60,13 @@
       "Phone number",
       "Send"
     ],
-    "about": ["Teacher Yasser Samman is a professional international English teacher, (CELTA) qualified by Cambridge and certified examiner for several Cambridge exams.", 
-    "16 years of experience in teaching English to at least 5000 students of all levels, plus delivering IELTS preparation courses.",
-     "Long teaching experience in multiple international institutions such as British Council, International House, LTUC, etc, in addition to working with the European Union in projects dedicated to teaching English.", 
-     "Currently, he is holding intensive English language & IELTS courses online, practically and professionally, to all levels through the platform “English Languarium” that he launched in the beginning of 2020.",
-    "Teacher Yasser speaks three languages, and he is also a musician, music player, composer, and trainer of the musical keys and vocal presentation."],
+    "about": [
+      "Teacher Yasser Samman is a professional international English teacher, (CELTA) qualified by Cambridge and certified examiner for several Cambridge exams.",
+      "16 years of experience in teaching English to at least 5000 students of all levels, plus delivering IELTS preparation courses.",
+      "Long teaching experience in multiple international institutions such as British Council, International House, LTUC, etc, in addition to working with the European Union in projects dedicated to teaching English.",
+      "Currently, he is holding intensive English language & IELTS courses online, practically and professionally, to all levels through the platform “English Languarium” that he launched in the beginning of 2020.",
+      "Teacher Yasser speaks three languages, and he is also a musician, music player, composer, and trainer of the musical keys and vocal presentation."
+    ],
     "footer": [
       "For any other inquiries don't hesitate to contact us directly through our Email or WhatsApp.",
       "englishlanguarium@gmail.com",
@@ -63,27 +74,36 @@
     ]
   },
   "ar": {
-    "locale":"ar-SY",
+    "locale": "ar-SY",
     "mainTitle": "تحدث الانجليزية بشغف",
     "points": [
-      " ENGLISH LANGUARIUM منصتك للغوص في جمال اللغة الانجليزية البريطانية.",
-      "ممارسة عملية فعلية للغة وكسر مضمون لحاجز الخوف وعدم الثقة (شرط الالتزام الكامل بالحضور والمشاركة).",
-      "جو مريح وممتع من دون ضغط لأننا نعمل جميعاً كعائلة واحدة ونعلم بأن إنجازك هو إنجازنا.",
-      "تعلم اللغة بأحدث الطرائق التدريسية التي تركز على الطالب وليس على المعلم."
+      " ENGLISH LANGUARIUM منصتك للغوص في جمال اللغة الانجليزية البريطانية",
+      "ممارسة عملية فعلية للغة وكسر مضمون لحاجز الخوف وعدم الثقة (شرط الالتزام الكامل بالحضور والمشاركة)",
+      "جو مريح وممتع من دون ضغط لأننا نعمل جميعاً كعائلة واحدة ونعلم بأن إنجازك هو إنجازنا",
+      "تعلم اللغة بأحدث الطرائق التدريسية التي تركز على الطالب وليس على المعلم"
     ],
+    "inprogress": {
+      "التمهيدي A2": "ستبدأ في السبت 8 \\10\\2022 (6:30 مساءً - 8:30 مساءً) بتوقيت السعودية",
+      "تحت المتوسط B1": "ستبدأ في السبت 8 \\10\\2022 (4:00 مساءً - 6:00 مساءً) بتوقيت السعودية",
+      "المتوسط B2": "ستبدأ في السبت 8 \\10\\2022 (9:00 مساءً - 11:00 مساءً) بتوقيت السعودية",
+      "فوق المتوسط C1": "في شهر 1 / 2023​",
+      "دورة المحادثة": "ستبدأ في الثلاثاء 1\\11\\2022 (11:00صباحاً - 1:00 مساءً) بتوقيت السعودية",
+      "الدورة التحضيرية لامتحان الكفاءة في اللغة الانجليزية للقبولات الجامعية في تركيا وقبرص وجورجيا ...الخ": " تفتح كل سنة مرة في شهر ",
+      "الدورة التحضيرية لامتحان الآيلتس": "ستبدأ في السبت 8\\10\\2022 (11:00 صباحاً - 2:00 مساءً) بتوقيت السعودية"
+    },
     "courseInfo": [
       "أربعة أيام في الأسبوع. (السبت، الأحد، الاثنين، الأربعاء)",
-      "ساعتان للجلسة الواحدة.",
-      "كل دورة من 24 إلى 30 ساعة تدريبية تقريباً.",
+      "ساعتان للجلسة الواحدة",
+      "كل دورة من 24 إلى 30 ساعة تدريبية تقريباً",
       "تدريب عملي على المهارات الأربع: (الاستماع / القراءة / المحادثة / الكتابة)",
-      "كل مرحلة مقسمة إلى ثلاث دورات، كل دورة = من 24 إلى 30 ساعة تقريباً.",
-      "تكلفة كل دورة 100 دولار.",
+      "كل مرحلة مقسمة إلى ثلاث دورات، كل دورة = من 24 إلى 30 ساعة تقريباً",
+      "تكلفة كل دورة 100 دولار",
       "طالب جديد..؟! ادفع لدورتين واحصل على الثالثة مجاناً"
     ],
     "conversationCourses": [
       "دورات المحادثة في اللغة الانجليزية:",
-      "24 ساعة للدورة الواحدة. 4 أيام في الأسبوع، ساعتان للجلسة الواحدة.",
-      "تكلفة كل دورة 100 دولار."
+      "24 ساعة للدورة الواحدة. 4 أيام في الأسبوع، ساعتان للجلسة الواحدة",
+      "تكلفة كل دورة 100 دولار"
     ],
     "preparation": [
       "IELTS preparation course:",
@@ -112,11 +132,13 @@
       "رقم الهاتف",
       "إرسال"
     ],
-    "about": ["الأستاذ ياسر السمان مدرس لغة انجليزية دولي مؤهل من كامبردج بشهادة (CELTA) وممتحن مجاز من كامبردج لعدة امتحانات دولية.",
-    "خبرة 16 عاماً في تدريس اللغة الإنجليزية لما يزيد عن 5000 طالب لكل المستويات، بالإضافة إلى الدورات التحضيرية لامتحان الآيلتس.",
-    "خبرة طويلة في العمل في العديد من الكليات والمعاهد والمراكز العالمية مثل المجلس الثقافي البريطاني والبيت الدولي وكلية لومينوس وعدد كبير من المؤسسات الأخرى بالإضافة إلى العمل في مشاريع دولية مع الاتحاد الأوروبي في تدريس اللغة الانجليزية. ",
-    "قدم حالياً دورات تدريبية عملية مكثفة في اللغة الانجليزية عن بعد بطريقة احترافية لكل المستويات بمنهج بريطاني بالإضافة إلى دورات محادثة و دورات تحضيرية لامتحان الآيلتس من خلال منصة English Languarium التي أطلقها مع بداية 2020.",
-    "الأستاذ ياسر يجيد التحدث بثلاث لغات ويدرّس اللغة الألمانية كما وأنه موسيقي وعازف وملحّن ومدرّب في المقامات الموسيقية والصولفيج الغنائي والإلقاء الصوتي."],
+    "about": [
+      "الأستاذ ياسر السمان مدرس لغة انجليزية دولي مؤهل من كامبردج بشهادة (CELTA) وممتحن مجاز من كامبردج لعدة امتحانات دولية.",
+      "خبرة 16 عاماً في تدريس اللغة الإنجليزية لما يزيد عن 5000 طالب لكل المستويات، بالإضافة إلى الدورات التحضيرية لامتحان الآيلتس.",
+      "خبرة طويلة في العمل في العديد من الكليات والمعاهد والمراكز العالمية مثل المجلس الثقافي البريطاني والبيت الدولي وكلية لومينوس وعدد كبير من المؤسسات الأخرى بالإضافة إلى العمل في مشاريع دولية مع الاتحاد الأوروبي في تدريس اللغة الانجليزية. ",
+      "قدم حالياً دورات تدريبية عملية مكثفة في اللغة الانجليزية عن بعد بطريقة احترافية لكل المستويات بمنهج بريطاني بالإضافة إلى دورات محادثة و دورات تحضيرية لامتحان الآيلتس من خلال منصة English Languarium التي أطلقها مع بداية 2020.",
+      "الأستاذ ياسر يجيد التحدث بثلاث لغات ويدرّس اللغة الألمانية كما وأنه موسيقي وعازف وملحّن ومدرّب في المقامات الموسيقية والصولفيج الغنائي والإلقاء الصوتي."
+    ],
     "footer": [
       "لاستفساراتكم لا تترددوا بالتواصل معنا عبر الإيميل أو الواتس آب",
       "englishlanguarium@gmail.com",

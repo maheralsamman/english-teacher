@@ -18,13 +18,16 @@ const Hero = () => {
         </h1>
       </div>
       <div className="flex space-x-20 pt-2">
-        <Link href="#about">
+        <Link href="#courses">
           <button className="heroButton">{locale === "en-US" ? "Courses" : "الدورات"}</button>
+        </Link>
+        <Link href="#inprogress">
+          <button className="heroButton">{locale === "en-US" ? "IN PROGRESS" : "الدورات الجارية"}</button>
         </Link>
         <Link href="#about">
           <button className="heroButton">{locale === "en-US" ? "About" : "من نحن"}</button>
         </Link>
-        <Link href="#about">
+        <Link href="#contact">
           <button className="heroButton">{locale === "en-US" ? "Contact" : "اتصل بنا"}</button>
         </Link>
       </div>
