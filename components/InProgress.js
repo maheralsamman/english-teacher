@@ -21,7 +21,7 @@ const InProgress = () => {
           ? content.en.points.map((point) => <p>- {point}</p>)
           : content.ar.points.map((point) => <p>{point} -</p>)}
       </div>
-      <div className="">
+      <div className="flex justify-center gap-2 flex-wrap self-center space-x-4">
         {locale === "en-US"
           ? Object.entries(content.en.inprogress).map(([key, value]) => (
               <div className="flex flex-col w-40 h-50 p-2 justify-start border-2 rounded border-[#7849ef]">
