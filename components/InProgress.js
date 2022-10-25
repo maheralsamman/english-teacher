@@ -7,7 +7,7 @@ const InProgress = () => {
   return (
     <div
       id="inprogress"
-      className="h-screen flex flex-col justify-between md:my-40 md:mx-16"
+      className=""
     >
       <h3
         className={`self-center mt-6 uppercase text-black text-2xl ${
