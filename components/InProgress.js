@@ -16,7 +16,7 @@ const InProgress = () => {
       >
         {locale === "en-US" ? "In Progress" : "يجري حاليا"}
       </h3>
-      <div className="grid grid-cols-2 grid-rows-2 p-8 gap-8 text-white text-sm md:text-base ">
+      <div className="">
         {locale === "en-US"
           ? content.en.points.map((point) => <p>- {point}</p>)
           : content.ar.points.map((point) => <p>{point} -</p>)}
