@@ -24,7 +24,7 @@ const InProgress = () => {
       <div className="">
         {locale === "en-US"
           ? Object.entries(content.en.inprogress).map(([key, value]) => (
-              <div className="flex flex-col w-40 h-50 p-2 justify-start border-2 rounded border-[#7849ef]">
+              <div className="">
                 <div className="text-[#31ff00]">{key}</div>
                 <div className="text-white">{value}</div>
               </div>
