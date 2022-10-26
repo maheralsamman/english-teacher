@@ -7,7 +7,7 @@ const Courses = () => {
   const { locale } = useRouter();
 
   return (
-    <div  id="courses"  className="">
+    <div  id="courses">
        <h3 className={``}>
        {locale === "en-US" ?  "" : "لدورات"}
       </h3>
