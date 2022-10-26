@@ -8,7 +8,7 @@ const Courses = () => {
 
   return (
     <div  id="courses"  className="h-screen flex flex-col justify-between md:mx-16">
-       <h3 className={``}>
+       <h3 className={`self-center mt-6 uppercase text-black text-2xl ${locale === 'en-US' ? ' tracking-[20px]':''}`}>
        {locale === "en-US" ?  "Courses" : "الدورات"}
       </h3>
       <div className="">
