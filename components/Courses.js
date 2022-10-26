@@ -9,7 +9,7 @@ const Courses = () => {
   return (
     <div  id="courses"  className="">
        <h3 className={``}>
-       {locale === "en-US" ?  "Courses" : "الدورات"}
+       {locale === "en-US" ?  "" : "لدورات"}
       </h3>
       <div className="">
         {locale === "en-US"
