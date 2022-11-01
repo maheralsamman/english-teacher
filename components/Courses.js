@@ -8,7 +8,7 @@ const Courses = () => {
 
   return (
     <div  id="courses"  className="">
-       <h3 className={`${locale === 'en-US' ? ' tracking-[20px]':''}`}>
+       <h3 className={`${locale === 'en-US' ? ' ':''}`}>
        {locale === "en-US" ?  "Courses" : "الدورات"}
       </h3>
       <div className="">
