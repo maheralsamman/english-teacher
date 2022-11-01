@@ -7,7 +7,7 @@ const Courses = () => {
   const { locale } = useRouter();
 
   return (
-    <div  id="courses"  className="h-screen flex flex-col justify-between md:mx-16">
+    <div  id="courses"  className="">
        <h3 className={`self-center mt-6 uppercase text-black text-2xl ${locale === 'en-US' ? ' tracking-[20px]':''}`}>
        {locale === "en-US" ?  "Courses" : "الدورات"}
       </h3>
