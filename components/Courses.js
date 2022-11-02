@@ -11,7 +11,7 @@ const Courses = () => {
        <h3 className={`self-center mt-6 uppercase text-black text-2xl ${locale === 'en-US' ? ' tracking-[20px]':''}`}>
        {locale === "en-US" ?  "Courses" : "الدورات"}
       </h3>
-      <div className="grid grid-cols-2 grid-rows-4 p-8 gap-2 text-white ">
+      <div className="grid grid-cols-2 grid-rows-4 p-8 gap-2 ">
         {locale === "en-US"
           ? content.en.courseInfo.map((info) => <p>- {info}</p>)
           : content.ar.courseInfo.map((info) => <p>{info} -</p>)}
