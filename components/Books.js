@@ -21,37 +21,37 @@ const Books = () => {
       className="w-3/4 mb-8 self-center"
     >
       <div>
-        <Image src={a1} />
+        <Image alt="book" src={a1} />
         <p className="legend">BEGGINER A1 (A , B , C)</p>
       </div>
 
       <div>
-        <Image src={b1} />
+        <Image alt="book" src={b1} />
         <p className="legend">ELEMENTARY A2 (A, B, C)</p>
       </div>
       <div>
-        <Image src={a2} />
+        <Image alt="book" src={a2} />
         <p className="legend">PRE-INTERMEDIATE B1 (A, B, C)</p>
       </div>
 
       <div>
-        <Image src={b2} />
+        <Image alt="book" src={b2} />
         <p className="legend">INTERMEDIATE B2 (A, B, C)</p>
       </div>
       <div>
-        <Image src={c1} />
+        <Image alt="book" src={c1} />
         <p className="legend">UPPER-INTERMEDIATE C1 (A, B, C)</p>
       </div>
       <div>
-        <Image src={c2} />
+        <Image alt="book" src={c2} />
         <p className="legend">ADVANCED C2 (A, B, C)</p>
       </div>
       <div>
-        <Image src={conversation} />
+        <Image alt="book" src={conversation} />
         <p className="legend">ENGLISH CONVERSATION</p>
       </div>
       <div>
-        <Image src={ielts} />
+        <Image alt="book" src={ielts} />
         <p className="legend">IELTS PREPARATION COURSE</p>
       </div>
     </Carousel>

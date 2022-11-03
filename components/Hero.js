@@ -11,7 +11,7 @@ const Hero = () => {
 
   return (
     <div className="h-screen flex flex-col space-y-1 items-center justify-center text-center overflow-hidden">
-      <Image className="drop-shadow-[15px_15px_15px_rgba(0,0,0,1)]" src={lang} /> {/* beatiful green shadow rgb(78 163 0) */}
+      <Image alt="English languarium" className="drop-shadow-[15px_15px_15px_rgba(0,0,0,1)]" src={lang} /> {/* beatiful green shadow rgb(78 163 0) */}
       <div className={styles.context}>
         <h1 className="body-font font-poppins custom [text-shadow:_-4px_-3px_0px_rgb(0_0_0_/_40%)]">
           {locale === "en-US" ? content.en.mainTitle : content.ar.mainTitle}

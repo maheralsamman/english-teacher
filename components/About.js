@@ -12,8 +12,8 @@ const About = () => {
       </h3>
       <div className="grid grid-cols-2 grid-rows-4 p-8 gap-2 text-white text-sm md:text-2xl md:m-12">
         {locale === "en-US"
-          ? content.en.courseInfo.map((info) => <p>- {info}</p>)
-          : content.ar.courseInfo.map((info) => <p>{info} -</p>)}
+          ? content.en.courseInfo.map((info,i) => <p key={i}>- {info}</p>)
+          : content.ar.courseInfo.map((info,i) => <p key={i}>{info} -</p>)}
       </div>
     </div>
   );
