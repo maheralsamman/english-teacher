@@ -7,7 +7,7 @@ const InProgress = () => {
   return (
     <div
       id="inprogress"
-      className="h-screen flex flex-col md:my-40 md:mx-16"
+      className="h-screen flex flex-col mb-40 md:my-40 md:mx-16"
     >
       <h3
         className={`self-center mt-6 uppercase text-black text-2xl ${
@@ -19,7 +19,7 @@ const InProgress = () => {
       <div className="grid sm:grid-cols-2 justify-items-center md:grid-rows-2 gap-4 p-8 text-white text-sm md:text-base ">
         {locale === "en-US"
           ? content.en.points.map((point) => <p className="text-sm p-2 w-12/12 md:py-8 md:px-4 border-2 rounded border-[#7849ef81]">- {point}</p>)
-          : content.ar.points.map((point) => <p>{point} -</p>)}
+          : content.ar.points.map((point) => <p className="text-sm p-2 w-12/12 md:py-8 md:px-4 border-2 rounded border-[#7849ef81]">{point} -</p>)}
       </div>
       <div className="flex justify-center gap-1 flex-wrap self-center">
         {locale === "en-US"
@@ -27,14 +27,12 @@ const InProgress = () => {
               <div className="w-11/12 sm:w-4/12 h-50 p-1 mx-0 border-2 rounded border-[#7849ef]">
                 <p className="inline text-[#31ff00] p-0 text-xs md:text-base">{key}:</p>
                 <p className="inline text-white text-xs p-1">{value}</p>
-                {/* <div className="inline text-[#31ff00] text:sm md:text-base p-2">{key}:</div>
-                <div className="inline text-white text-sm p-2">{value}</div> */}
               </div>
             ))
           : Object.entries(content.ar.inprogress).map(([key, value]) => (
-            <div>
-              <div>{key}</div>
-              <div>{value}</div>
+            <div className="w-11/12 sm:w-4/12 h-50 p-1 mx-0 border-2 rounded border-[#7849ef]">
+                <p className="inline text-[#31ff00] p-0 text-xs md:text-base">{key}:</p>
+                <p className="inline text-white text-xs p-1">{value}</p>
             </div>
           ))}
       </div>

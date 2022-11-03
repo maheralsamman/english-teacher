@@ -6,7 +6,7 @@ import About from "./About";
 
 const EnglishHome = ({ content }) => {
   return (
-    <main className="flex flex-col space-y-20 justify-start overflow-hidden">
+    <main className="flex flex-col space-y-32 justify-start overflow-hidden">
       <Courses  id="courses"  />
       <InProgress  id="inprogress"  /> 
       <Contact  id="contact"  /> 

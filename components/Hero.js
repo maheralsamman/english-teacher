@@ -17,7 +17,7 @@ const Hero = () => {
           {locale === "en-US" ? content.en.mainTitle : content.ar.mainTitle}
         </h1>
       </div>
-      <div className="flex space-x-20 pt-2">
+      <div className="flex flex-col gap-2 sm:gap-0 sm:flex-row sm:space-x-10 pt-2">
         <Link href="#courses">
           <button className="heroButton">{locale === "en-US" ? "Courses" : "الدورات"}</button>
         </Link>
