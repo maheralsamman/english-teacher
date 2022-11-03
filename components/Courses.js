@@ -11,10 +11,10 @@ const Courses = () => {
        <h3 className={`self-center mt-6 uppercase text-black text-2xl ${locale === 'en-US' ? ' tracking-[20px]':''}`}>
        {locale === "en-US" ?  "Courses" : "الدورات"}
       </h3>
-      <div className="grid grid-cols-2 grid-rows-4 p-8 gap-2 text-white text-sm md:text-2xl md:m-12">
+      <div className="grid grid-cols-2 justify-center grid-rows-4 p-2 gap-2 text-white text-sm md:text-xl md:m-8">
         {locale === "en-US"
-          ? content.en.courseInfo.map((info) => <p>- {info}</p>)
-          : content.ar.courseInfo.map((info) => <p>{info} -</p>)}
+          ? content.en.courseInfo.map((info) => <p className="text:sm md:text-base p-2 md:w-11/12 md:py-4 md:px-4 border-2 rounded border-[#7849ef81]">- {info}</p>)
+          : content.ar.courseInfo.map((info) => <p className="text:sm md:text-base p-2 md:w-11/12 md:py-4 md:px-4 border-2 rounded border-[#7849ef81]">{info} -</p>)}
       </div>
           <Books />
     </div>

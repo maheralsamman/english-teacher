@@ -16,9 +16,9 @@ const InProgress = () => {
       >
         {locale === "en-US" ? "In Progress" : "يجري حاليا"}
       </h3>
-      <div className="grid grid-cols-2 grid-rows-2 p-8 gap-8 text-white text-sm md:text-base ">
+      <div className="grid md:grid-cols-2 md:grid-rows-2 gap-2 p-8 md:gap-8 text-white text-sm md:text-base ">
         {locale === "en-US"
-          ? content.en.points.map((point) => <p>- {point}</p>)
+          ? content.en.points.map((point) => <p className="p-2 lg:w-9/12 md:py-8 md:px-4 border-2 rounded border-[#7849ef81]">- {point}</p>)
           : content.ar.points.map((point) => <p>{point} -</p>)}
       </div>
       <div className="flex justify-center gap-2 flex-wrap self-center space-x-4">
