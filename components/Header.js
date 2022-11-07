@@ -3,7 +3,7 @@ import Language from "./Language";
 //import { SocialIcon } from "react-social-icons";
 /* import { motion } from "framer-motion";
  */
-
+// color: #ffff63;
 
 function Header() {
   return (
