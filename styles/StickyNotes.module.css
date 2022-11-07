@@ -35,28 +35,30 @@
     width:12em;
     padding:1em;
     box-shadow: 5px 5px 7px rgba(33,33,33,.7);
-    transform: rotate(-6deg);
+    transform: rotate(-6deg) translateX(10%) translateY(+15%);
     transition: transform .15s linear;
   }
   
 .li:nth-child(even) {
-    transform:rotate(4deg);
+    transform:rotate(4deg) translateY(10%);
     position:relative;
     top:5px;
     background: #487c21;
   }
   .li:nth-child(3n) {
-    transform:rotate(-3deg);
+    transform:rotate(-3deg) translateY(15%);;
     position:relative;
     top:-5px;
     background: #7849ef;;
   }
   .li:nth-child(5n) {
-    transform:rotate(5deg);
+    transform:rotate(5deg) translateX(15%);;
     position:relative;
     top:-10px;
   }
-  
+  .li:last-child {
+    transform: rotate(7deg) translateX(8%) translateY(-15%);;
+  }
   .li a:hover,.li:focus{
     box-shadow:10px 10px 7px rgba(0,0,0,.7);
     transform: scale(1.25);

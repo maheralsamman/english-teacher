@@ -2,7 +2,7 @@ import React from "react";
 import content from "../content.json";
 import { useRouter } from "next/router";
 import Books from "./Books";
-import styles from "../styles/Courses.module.css"
+import styles from "../styles/StickyNotes.module.css"
 
 const Courses = () => {
   const { locale } = useRouter();
