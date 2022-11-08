@@ -4,7 +4,6 @@ import styles from "../styles/Contact.module.css"
 
 
 const ContactForm = ( {fields}) => {
-    console.log(fields);
   const form = useRef();
   const [result, showResult] = useState(false);
   const sendEmail = (e) => {

@@ -49,12 +49,12 @@ const Contact = () => {
       <h3 className={`self-center mt-6 uppercase text-black text-2xl ${locale === 'en' ? ' tracking-[20px]':''}`}>
       {locale === "en" ?  "Contact" : "إتصل بنا"}
       </h3>
-      <div className="p-8 text-white text-sm md:text-2xl m-2 mt-40">
+      <div className="p-8 text-white text-sm md:text-2xl m-2 mt-36">
         {locale === `en` ?
                   <motion.div className="" variants={item}>
                   <div className="">
                     <div className="subheading">
-                      <h3 className="mb-8">Let's Talk</h3>
+                      <h3 className="mb-12 text-xl">Let's Talk</h3>
                     </div>
       
                     <ContactForm fields={content.en.contactForm} />

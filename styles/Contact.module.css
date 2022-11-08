@@ -75,6 +75,8 @@
   color: bisque;
   border-radius: 2px;
   border: solid 3px bisque;
+  transition: all;
+  transition-duration: 0.2s;
 }
 .btnMain:hover {
   text-decoration: none;
