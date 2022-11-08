@@ -55,10 +55,10 @@
     ],
     "contactForm": [
       "Email address",
-      "First name",
-      "Last name",
-      "Phone number",
-      "Send"
+      "Name",
+      "Send me a message...",
+      "Your message has been successfully sent.",
+      "Send Message"
     ],
     "about": [
       "Teacher Yasser Samman is a professional international English teacher, (CELTA) qualified by Cambridge and certified examiner for several Cambridge exams.",
@@ -127,10 +127,10 @@
     ],
     "contactForm": [
       "البريد الالكتروني",
-      "الاسم الأول",
-      "الاسم الأخير",
-      "رقم الهاتف",
-      "إرسال"
+      "الاسم",
+      "إرسل لي رسالة",
+      "تم إرسال رسالتك بنجاح",
+      "أرسل الرسالة"
     ],
     "about": [
       "الأستاذ ياسر السمان مدرس لغة انجليزية دولي مؤهل من كامبردج بشهادة (CELTA) وممتحن مجاز من كامبردج لعدة امتحانات دولية.",
