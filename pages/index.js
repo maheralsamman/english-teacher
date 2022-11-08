@@ -29,7 +29,7 @@ export default function Home() {
 
       <div className="text-yellow-400">
         <div>
-          {locale === "en-US" ? (
+          {locale === "en" ? (
             <EnglishHome content={content.en} />
           ) : (
             <ArabicHome content={content.ar} />

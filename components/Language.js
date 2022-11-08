@@ -12,8 +12,8 @@ console.log(asPath);
   return (
     <main className={styles.main}>
       <div className={styles.navbar}>
-        <Link href="/en-US" locale="en-US"><Image alt="English" className="cursor-pointer"  src={uk} width="60px" height="60px" /></Link>
-        <Link href="/ar-SY" locale="ar-SY"><Image alt="Arabic" className="cursor-pointer"  src={sa} width="60px" height="60px" /></Link>
+        <Link href="/en" locale="en"><Image alt="English" className="cursor-pointer"  src={uk} width="60px" height="60px" /></Link>
+        <Link href="/ar" locale="ar"><Image alt="Arabic" className="cursor-pointer"  src={sa} width="60px" height="60px" /></Link>
 
         {/*         {locales.map((l, i) => {
           return (
