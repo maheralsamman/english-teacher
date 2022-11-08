@@ -54,7 +54,7 @@ const Contact = () => {
                   <motion.div className="" variants={item}>
                   <div className="">
                     <div className="subheading">
-                      <h3 className="mb-12 text-xl">Let's Talk</h3>
+                      <h3 className="mb-12 text-xl">Lets Talk</h3>
                     </div>
       
                     <ContactForm fields={content.en.contactForm} />
@@ -64,7 +64,7 @@ const Contact = () => {
                         <motion.div className="" variants={item}>
                         <div className="">
                           <div className="subheading">
-                            <h3>Let's Talk</h3>
+                            <h3>Lets Talk</h3>
                           </div>
             
                           <ContactForm fields={content.ar.contactForm} />

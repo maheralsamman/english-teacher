@@ -9,8 +9,8 @@ const ArabicHome = ({ content }) => {
     <main className="flex flex-col space-y-8 justify-start overflow-hidden text-right">
       <Courses />
       <InProgress  id="inprogress"  /> 
-      <Contact  id="contact"  /> 
       <About  id="about"  /> 
+      <Contact  id="contact"  /> 
 
     </main>
   );
