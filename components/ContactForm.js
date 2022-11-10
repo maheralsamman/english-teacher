@@ -1,7 +1,7 @@
 import  { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import styles from "../styles/Contact.module.css"
-
+import emailInfo from "../emailInfo.js"
 
 const ContactForm = ( {fields}) => {
   const form = useRef();
@@ -11,10 +11,10 @@ const ContactForm = ( {fields}) => {
     
     emailjs
       .sendForm(
-        "service_6nsex3n",
-        "template_q49m8th",
+        emailInfo.service,
+        emailInfo.template,
         form.current,
-        "BlpvpDsw7Dc6D4fqe"
+        emailInfo.last
       )
       .then(
         (result) => {

@@ -1,6 +1,8 @@
 import React from "react";
 import { useRouter } from "next/router";
 import content from "../content.json";
+import { motion } from "framer-motion";
+
 
 const InProgress = () => {
   const { locale } = useRouter();
@@ -24,16 +26,26 @@ const InProgress = () => {
       <div className="h-full flex justify-center gap-4 mt-6 w-full flex-col sm:flex-row sm:flex-wrap content-center items-center  sm:items-unset">
         {locale === "en"
           ? Object.entries(content.en.inprogress).map(([key, value], i) => (
-              <div key={i} className="w-52 h-64 p-4 flex-col md:flex-row border-2 rounded border-[#7849ef]">
+              <motion.div
+              initial={{ x:  i % 2 === 0 ? -300 : 300, opacity: 0 }}
+              whileInView={{ x:0, opacity: 1 }}
+              transition={{ duration: 1.5, delay:`.${i}` }}
+              viewport={{once:true}}
+              key={i} className="w-52 h-64 p-4 flex-col md:flex-row border-2 rounded border-[#7849ef]">
                 <p className="inline text-[#31ff00] p-0 text-lg">{key}:</p>
                 <p className="inline text-white text-lg p-1">{value}</p>
-              </div>
+              </motion.div>
             ))
           : Object.entries(content.ar.inprogress).map(([key, value], i) => (
-            <div key={i} className="w-52 h-64 p-4 flex-col md:flex-row border-2 rounded border-[#7849ef]">
+            <motion.div
+            initial={{ x:  i % 2 === 0 ? -300 : 300, opacity: 0 }}
+            whileInView={{ x:0, opacity: 1 }}
+            transition={{ duration: 1.5, delay:`.${i}` }}
+            viewport={{once:true}}
+            key={i} className="w-52 h-64 p-4 flex-col md:flex-row border-2 rounded border-[#7849ef]">
                 <p className="inline text-[#31ff00] p-0 text-lg">{key}: </p>
                 <p className="inline text-white text-lg p-1">{value}</p>
-            </div>
+            </motion.div>
           ))}
       </div>
     </div>

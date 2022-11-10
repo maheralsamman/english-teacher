@@ -3,6 +3,7 @@ import content from "../content.json";
 import { useRouter } from "next/router";
 import Books from "./Books";
 import styles from "../styles/StickyNotes.module.css"
+import { motion } from "framer-motion";
 
 const Courses = () => {
   const { locale } = useRouter();
@@ -15,17 +16,25 @@ const Courses = () => {
       <ul className={styles.ul}>
         {locale === "en"
           ? content.en.courseInfo.map((info, i) => 
-          <li className={styles.li} key={i} >
-            <h2 className={styles.h2}></h2>
+          <motion.li 
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1.5, delay:`.${i}` }}
+          viewport={{once:true}}
+          className={styles.li} 
+          key={i}>
             <p className={styles.p}>- {info}</p>
-            
-            </li>
+            </motion.li>
             )
           : content.ar.courseInfo.map((info, i) => 
-          <li className={styles.li} key={i}>
-            <h2 className={styles.h2}></h2>
+          <motion.li    
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1.5, delay:`.${i}` }}
+          viewport={{once:true}}
+          className={styles.li} key={i}>
            <p  className={styles.p}>{info} -</p>
-            </li>)}
+            </motion.li>)}
       </ul>
           <Books />
     </div>
