@@ -36,7 +36,7 @@ const Contact = () => {
     <motion.div
     initial={{ opacity: 0 }}
     whileInView={{ opacity: 1 }}
-    transition={{ delay: 0.2, duration: 0.5 }}
+    transition={{ duration: 0.5 }}
     viewport={{once:true}}
       id="contact"
       className="h-screen flex flex-col"
@@ -65,7 +65,7 @@ const Contact = () => {
                         <motion.div className="" variants={item}>
                         <div className="">
                           <div className="subheading">
-                            <h3>Let&apos;s Talk</h3>
+                            <h3 className="mb-4">{locale === "en" ?  "Let&apos;s Talk" : "راسلنا"}</h3>
                           </div>
             
                           <ContactForm fields={content.ar.contactForm} />
