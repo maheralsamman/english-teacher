@@ -13,13 +13,14 @@ const About = () => {
       <h3 className={`self-center mt-6 uppercase text-black text-2xl ${locale === 'en' ? ' tracking-[20px]':''}`}>
       {locale === "en" ?  "About" : "من نحن"}
       </h3>
-      <motion.div style={{display: "grid", "grid-template-rows": "repeat(3, minmax(0, 1fr))", "grid-template-columns": "repeat(2, minmax(0, 1fr))"}} className="grid grid-cols-2 grid-rows-3 p-8 gap-2 text-white text-sm md:text-2xl md:m-12">
+      <motion.div style={{display: "grid", "grid-template-rows": "repeat(3, minmax(0, 1fr))", "grid-template-columns": "repeat(2, minmax(0, 1fr))"}} 
+      className="grid grid-cols-2 grid-rows-3 p-8 gap-2 text-white text-sm md:text-2xl md:m-12">
         {locale === "en"
           ? content.en.about.map((info,i) => 
           <motion.div 
           key={i}
-          initial={{  x: i % 2 === 0 ?  -300 : 300 , opacity: 0 }}
-          whileInView={{x:0, opacity: 1 }}
+          initial={{  x: i % 2 === 0 ?  "-100%" : "100%" , opacity: 0 }}
+          whileInView={{ x:0, opacity: 1 }}
           transition={{ duration: 1.5, delay:`.${i}` }}
           viewport={{once:true}}
           className={`flex flex-col items-center ${content.en.about.length === i + 1 ? "col-span-2 w-1/2 m-auto" : ""}`}>
@@ -31,7 +32,7 @@ const About = () => {
           : content.ar.about.map((info,i) => 
           <motion.div
           key={i}
-          initial={{  x: i % 2 === 0 ?  -300 : 300 , opacity: 0 }}
+          initial={{  x: i % 2 === 0 ?  "-100%" : "100%" , opacity: 0 }}
           whileInView={{x:0, opacity: 1 }}
           transition={{ duration: 1.5, delay:`.${i}` }}
           viewport={{once:true}}

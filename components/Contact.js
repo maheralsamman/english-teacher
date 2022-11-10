@@ -4,17 +4,17 @@ import content from "../content.json";
 import ContactForm from "./ContactForm";
 import { motion } from "framer-motion";
 
-const container = {
-    hidden: { opacity: 1, scale: 0 },
+ const container = {
+    hidden: { opacity: 0, scale: 0 },
     visible: {
       opacity: 1,
       scale: 1,
       transition: {
-        delayChildren: 1,
+        delayChildren: 0.1,
         staggerChildren: 0.4,
       },
     },
-  };
+  }; 
   
   const item = {
     hidden: { y: 20, opacity: 0 },
@@ -36,7 +36,7 @@ const Contact = () => {
     <motion.div
     initial={{ opacity: 0 }}
     whileInView={{ opacity: 1 }}
-    transition={{ duration: 0.5 }}
+    transition={{ duration: 0.3 }}
     viewport={{once:true}}
       id="contact"
       className="h-screen flex flex-col"
@@ -46,11 +46,11 @@ const Contact = () => {
       {locale === "en" ?  "Contact" : "إتصل بنا"}
       </h3>
       <motion.div
-          variants={container}
+          variants={container} 
           initial="hidden"
           whileInView="visible"
           viewport={{once:true}}
-          className="p-8 text-white text-sm md:text-2xl m-2 mt-36">
+          className="p-8 text-white text-sm md:text-2xl m-2 mt-24 md:mt-28">
         {locale === `en` ?
                   <motion.div className="" variants={item}>
                   <div className="">
