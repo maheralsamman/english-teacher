@@ -7,13 +7,20 @@ import uk from "../assets/uk.png";
 import Image from 'next/image'
 
 const Language = () => {
-  const { locale, locales, asPath } = useRouter();
-console.log(asPath);
+
   return (
     <main className={styles.main}>
       <div className={styles.navbar}>
-        <Link href="/en" locale="en"><Image alt="English" className="cursor-pointer"  src={uk} width="60px" height="60px" /></Link>
-        <Link href="/ar" locale="ar"><Image alt="Arabic" className="cursor-pointer"  src={sa} width="60px" height="60px" /></Link>
+        <Link href="/en" locale="en" >
+            <a>
+            <Image alt="English" className="cursor-pointer"  src={uk} width="60px" height="60px" />
+            </a>
+            </Link>
+        <Link href="/ar" locale="ar">
+            <a>
+            <Image alt="Arabic" className="cursor-pointer"  src={sa} width="60px" height="60px" />
+            </a>
+            </Link>
 
         {/*         {locales.map((l, i) => {
           return (

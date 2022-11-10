@@ -21,13 +21,13 @@
 .context h1{
     text-align: center;
     /*color: #7849ef;*/
-    font-weight: 500;
-    font-size: 2em;
+/*     font-weight: 500;
+    font-size: 2em; */
 }
 @media (min-width: 770px) {
     .context h1{
-        font-weight: 700;
-        font-size: 3em;
+/*         font-weight: 700;
+        font-size: 3em; */
     } 
 } 
 

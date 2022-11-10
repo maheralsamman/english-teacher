@@ -17,6 +17,7 @@ const About = () => {
         {locale === "en"
           ? content.en.about.map((info,i) => 
           <motion.div 
+          key={i}
           initial={{  x: i % 2 === 0 ?  -300 : 300 , opacity: 0 }}
           whileInView={{x:0, opacity: 1 }}
           transition={{ duration: 1.5, delay:`.${i}` }}
@@ -29,6 +30,7 @@ const About = () => {
           )
           : content.ar.about.map((info,i) => 
           <motion.div
+          key={i}
           initial={{  x: i % 2 === 0 ?  -300 : 300 , opacity: 0 }}
           whileInView={{x:0, opacity: 1 }}
           transition={{ duration: 1.5, delay:`.${i}` }}
