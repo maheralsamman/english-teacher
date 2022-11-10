@@ -3,14 +3,6 @@ import { useRouter } from "next/router";
 import content from "../content.json";
 import ContactForm from "./ContactForm";
 import { motion } from "framer-motion";
-import styles from "../styles/Contact.module.css"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faEnvelope,
-  faPaperPlane,
-  faMapMarkedAlt,
-  faPhone,
-} from "@fortawesome/free-solid-svg-icons";
 
 const container = {
     hidden: { opacity: 1, scale: 0 },
@@ -41,7 +33,11 @@ const container = {
 const Contact = () => {
     const { locale } = useRouter();
   return (
-    <div
+    <motion.div
+    initial={{ opacity: 0 }}
+    whileInView={{ opacity: 1 }}
+    transition={{ delay: 0.2, duration: 0.5 }}
+    viewport={{once:true}}
       id="contact"
       className="h-screen flex flex-col"
     >
@@ -49,7 +45,12 @@ const Contact = () => {
       <h3 className={`self-center mt-6 uppercase text-black text-2xl ${locale === 'en' ? ' tracking-[20px]':''}`}>
       {locale === "en" ?  "Contact" : "إتصل بنا"}
       </h3>
-      <div className="p-8 text-white text-sm md:text-2xl m-2 mt-36">
+      <motion.div
+          variants={container}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{once:true}}
+          className="p-8 text-white text-sm md:text-2xl m-2 mt-36">
         {locale === `en` ?
                   <motion.div className="" variants={item}>
                   <div className="">
@@ -70,8 +71,8 @@ const Contact = () => {
                           <ContactForm fields={content.ar.contactForm} />
                         </div>
                       </motion.div> }
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 };
 

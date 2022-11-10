@@ -13,4 +13,9 @@
     background-clip: text;
     color: transparent;
   }
+  .icon {
+    width: 100px;
+    height: 100px;
+    color: #31ff00;
+  }
 }
