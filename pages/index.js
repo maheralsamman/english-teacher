@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import styles from "../styles/Home.module.css";
+//import content from "../content.json";
 import ArabicHome from "../components/ArabicHome";
 import EnglishHome from "../components/EnglishHome";
 import Background from "../components/Background";
@@ -19,8 +20,9 @@ export default function Home() {
     getData();
   }, []);
   const getData = async () => {
-    const data = await fetch("https://api.npoint.io/611e3707cdf57ebe6c46", { cache: 'no-store' });
+    const data = await fetch("https://api.npoint.io/a0103f7c865cba342b3b", { cache: 'no-store' });
     const result = await data.json();
+    console.log(result);
     setContent(result);
   };
 
