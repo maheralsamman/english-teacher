@@ -1,6 +1,6 @@
 import React from "react";
 import { useRouter } from "next/router";
-import content from "../content.json";
+//import content from "../content.json";
 import ContactForm from "./ContactForm";
 import { motion } from "framer-motion";
 
@@ -30,7 +30,7 @@ import { motion } from "framer-motion";
     backgroundColor: "#2c2d2f",
   };
 
-const Contact = () => {
+const Contact = ({ content }) => {
     const { locale } = useRouter();
   return (
     <motion.div

@@ -7,10 +7,10 @@ import About from "./About";
 const ArabicHome = ({ content }) => {
   return (
     <main className="flex flex-col space-y-8 justify-start overflow-hidden text-right">
-      <Courses />
-      <InProgress  id="inprogress"  /> 
-      <About  id="about"  /> 
-      <Contact  id="contact"  /> 
+      <Courses content={content} />
+      <InProgress content={content} id="inprogress"  /> 
+      <About content={content} id="about"  /> 
+      <Contact content={content} id="contact"  /> 
 
     </main>
   );

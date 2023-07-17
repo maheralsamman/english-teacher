@@ -1,10 +1,10 @@
 import React from "react";
 import { useRouter } from "next/router";
-import content from "../content.json";
+//import content from "../content.json";
 import { motion } from "framer-motion";
 
 
-const InProgress = () => {
+const InProgress = ({ content }) => {
   const { locale } = useRouter();
   return (
     <div
