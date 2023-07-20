@@ -17,18 +17,21 @@ const Hero = () => {
           {locale === "en" ? "SPEAK ENGLISH & MAKE THE CHANGE" : "تحدث الانجليزية بشغف"}
         </h1>
       </div>
-      <div className="flex flex-col gap-2 sm:gap-0 sm:flex-row sm:space-x-10 pt-2">
+      <div className="flex flex-col gap-2 lg:gap-0 lg:flex-row pt-2">
+        <Link href="#aboutcourses">
+          <button className={`${locale === "en" ? "" : "order-5"} heroButton`}>{locale === "en" ? "About Courses" : "عن الدورات"}</button>
+        </Link>
         <Link href="#courses">
-          <button className="heroButton">{locale === "en" ? "Courses" : "الدورات"}</button>
+          <button className={`${locale === "en" ? "" : "order-4"} heroButton`} >{locale === "en" ? "Courses" : "الدورات"}</button>
         </Link>
         <Link href="#inprogress">
-          <button className="heroButton">{locale === "en" ? "IN PROGRESS" : "الدورات الجارية"}</button>
+          <button className={`${locale === "en" ? "" : "order-3"} heroButton`} >{locale === "en" ? "IN PROGRESS" : "الدورات الجارية"}</button>
         </Link>
         <Link href="#about">
-          <button className="heroButton">{locale === "en" ? "About" : "من نحن"}</button>
+          <button className={`${locale === "en" ? "" : "order-2"} heroButton`} >{locale === "en" ? "About" : "من نحن"}</button>
         </Link>
         <Link href="#contact">
-          <button className="heroButton">{locale === "en" ? "Contact" : "اتصل بنا"}</button>
+          <button className={`${locale === "en" ? "" : "order-1"} heroButton`} >{locale === "en" ? "Contact" : "اتصل بنا"}</button>
         </Link>
       </div>
     </div>

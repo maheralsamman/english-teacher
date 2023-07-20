@@ -42,7 +42,7 @@ const Contact = ({ content }) => {
       className="h-screen flex flex-col"
     >
        
-      <h3 className={`self-center mt-6 uppercase text-black text-2xl ${locale === 'en' ? ' tracking-[20px]':''}`}>
+      <h3 className={`text-center self-center mt-6 uppercase text-black text-2xl ${locale === 'en' ? ' tracking-[20px]':''}`}>
       {locale === "en" ?  "Contact" : "إتصل بنا"}
       </h3>
       <motion.div

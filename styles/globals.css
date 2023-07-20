@@ -4,7 +4,7 @@
 
 @layer components {
   .heroButton {
-    @apply z-30 px-6 py-2 border border-[#7849ef]
+    @apply z-30 mx-4 px-6 py-2 border border-[#7849ef]
         rounded-full uppercase text-lg tracking-widest text-[#000000] font-bold
         transition-all hover:shadow-[0_0px_30px_12px_rgba(120,73,239,0.5)];
   }
@@ -17,5 +17,9 @@
     width: 100px;
     height: 100px;
     color: #31ff00;
+  }
+  .whatsapp {
+    @apply 
+    transition-all hover:scale-[1.2] duration-300;
   }
 }

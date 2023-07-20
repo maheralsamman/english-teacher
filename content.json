@@ -17,6 +17,28 @@
       "English proficiency exam preparation": "course for the universities in Turkey, Cyprus, Georgia, etc. Every September",
       "IELTS Preparation": "Starts on Sat 8/10/2022 (11:00am – 2:00pm) KSA time"
     },
+    "courses": {
+      "courseName": [
+        "BEGINNER (A1)",
+        "ELEMENTARY (A2)",
+        "PRE-INTERMEDIATE (B1)",
+        "INTERMEDIATE (B2)",
+        "UPPER-INTERMEDIATE (C1)",
+        "ADVANCED (C2)",
+        "IELTS PREPARATION COURSE",
+        "ENGLISH CONVERSATION"
+      ],
+      "courseDescription": [
+        ["Course A $100", "Course B $100", "Course C $100"],
+        ["Course A $100", "Course B $100", "Course C $100"],
+        ["Course A $100", "Course B $100", "Course C $100"],
+        ["Course A $100", "Course B $100", "Course C $100"],
+        ["Course A $100", "Course B $100", "Course C $100"],
+        ["Course A $100", "Course B $100", "Course C $100"],
+        ["30 hours", "150$"],
+        ["24 hours", "100$"]
+      ]
+    },
     "courseInfo": [
       "Four days a week. (Sat, Sun, Mon, Wed)",
       "Two hours per session.",
@@ -91,6 +113,29 @@
       "الدورة التحضيرية لامتحان الكفاءة في اللغة الانجليزية للقبولات الجامعية في تركيا وقبرص وجورجيا ...الخ": " تفتح كل سنة مرة في شهر ",
       "الدورة التحضيرية لامتحان الآيلتس": "ستبدأ في السبت 8\\10\\2022 (11:00 صباحاً - 2:00 مساءً) بتوقيت السعودية"
     },
+    "courses": {
+      "courseName": [
+        "A1 مبتدئ",
+        "A2 تمهيدي",
+        "B1 قبل المتوسط",
+        "B2 متوسط",
+        "C1 فوق المتوسط",
+        "C2 متقدم",
+        "الدورة التحضيرية لامتحان IELTS",
+        "دورات المحادثة"
+      ],
+      "courseDescription": [
+        ["Course A $100", "Course B $100", "Course C $100"],
+        ["Course A $100", "Course B $100", "Course C $100"],
+        ["Course A $100", "Course B $100", "Course C $100"],
+        ["Course A $100", "Course B $100", "Course C $100"],
+        ["Course A $100", "Course B $100", "Course C $100"],
+        ["Course A $100", "Course B $100", "Course C $100"],
+        ["30 ساعة تدريبية", "150$"],
+        ["24 ساعة ", "100$"]
+      ]
+    },
+
     "courseInfo": [
       "أربعة أيام في الأسبوع. (السبت، الأحد، الاثنين، الأربعاء)",
       "ساعتان للجلسة الواحدة",

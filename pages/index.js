@@ -11,6 +11,8 @@ import Header from "../components/Header";
 import Language from "../components/Language";
 import Hero from "../components/Hero";
 import NewStudent from "../components/NewStudent";
+import whatsapp from "../assets/whatsapp-logo.png";
+import Image from "next/image";
 
 export default function Home() {
   const { locale, locales, asPath } = useRouter();
@@ -20,9 +22,10 @@ export default function Home() {
     getData();
   }, []);
   const getData = async () => {
-    const data = await fetch("https://api.npoint.io/a0103f7c865cba342b3b", { cache: 'no-store' });
+    const data = await fetch("https://api.npoint.io/a0103f7c865cba342b3b", {
+      cache: "no-store",
+    });
     const result = await data.json();
-    console.log(result);
     setContent(result);
   };
 
@@ -37,7 +40,7 @@ export default function Home() {
       {/* <NewStudent/> */}
       <Language />
       <Background />
-      <Hero/>
+      <Hero />
       <section className="snap-center"></section>
       {/* <Header className="" /> */}
 
@@ -53,6 +56,13 @@ export default function Home() {
         ) : (
           <h1>LOADING...</h1>
         )}
+      </div>
+      <div className="whatsapp w-14 h-14 md:w-16 md:h-16 right-2 fixed bottom-2 md:right-10 md:bottom-10">
+        <Link href="https://api.whatsapp.com/send/?phone=905310137740&text&app_absent=0">
+          <div className="cursor-pointer" >
+          <Image alt="WhatsApp" src={whatsapp} />
+          </div>
+        </Link>
       </div>
     </div>
   );

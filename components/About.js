@@ -10,7 +10,7 @@ const About = ({ content }) => {
     const { locale } = useRouter();
   return (
     <div id="about" className="min-h-screen h-full flex flex-col justify-between md:mx-16">
-      <h3 className={`self-center mt-6 uppercase text-black text-2xl ${locale === 'en' ? ' tracking-[20px]':''}`}>
+      <h3 className={`text-center self-center mt-6 uppercase text-black text-2xl ${locale === 'en' ? ' tracking-[20px]':''}`}>
       {locale === "en" ?  "About" : "من نحن"}
       </h3>
       <motion.div style={{display: "grid", "gridTemplateRows": "repeat(3, minmax(0, 1fr))", "gridTemplateColumns": "repeat(2, minmax(0, 1fr))"}} 
